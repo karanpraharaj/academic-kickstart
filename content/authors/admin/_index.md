@@ -65,7 +65,7 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://github.com/karanpraharaj"
 
 [[social]]
-  icon = "linked-in"
+  icon = "linkedin-in"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/karan-praharaj-85142a21/"
 
