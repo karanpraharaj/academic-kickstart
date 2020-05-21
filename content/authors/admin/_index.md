@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Karan Praharaj
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: GREYC Lab, University of Caen, Normandy
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a visiting research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) at the [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France. My current work, supervised by Prof. [Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. 
+
+My research interests include Lexical Semantics and Deep Learning models for Natural Language Processing applications. I graduated with a Bachelors degree in Electronics and Communication Engineering from [Shiv Nadar University](https://snu.edu.in/) in May, 2019.    
 
 interests:
-- Artificial Intelligence
+- Lexico-semantic Relations
 - Computational Linguistics
-- Information Retrieval
+- Attention Models for Identification of Symmetric and Asymmetric Word Relations 
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: B.Tech in Electronics and Communication Engineering
+    institution: Shiv Nadar University
+    year: 2019
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +41,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:karanpraharaj@hotmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/IntrepidIndian
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=i73wcptREbUC&hl=en&oi=ao
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/karanpraharaj
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,6 +67,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a visiting research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) at the [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France. My current work, supervised by Prof. [Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research interests include Lexical Semantics and Deep Learning models for natural language processing applications.
