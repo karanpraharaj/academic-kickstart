@@ -11,4 +11,6 @@ title = "Bio"
 # This should be the username of a profile in your `content/authors/` folder.
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
+
+<a class="twitter-timeline" data-lang="en" data-width="1000" data-height="300" data-theme="dark" href="https://twitter.com/IntrepidIndian?ref_src=twsrc%5Etfw">Tweets by IntrepidIndian</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 +++

@@ -11,6 +11,7 @@ subtitle = ""
 # Automatically link email and phone?
 autolink = false
 
+
 # Email form provider
 #   0: Disable email form
 #   1: Netlify (requires that the site is hosted by Netlify)
