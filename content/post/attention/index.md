@@ -66,6 +66,10 @@ A problem with this architecture is its over-reliance on one fixed-length vector
 
 In order to address the issue, Bahdanau et al. introduced an extension to the encoder-decoder model which learns to align and translate jointly. The new architecture deploys a bidirectional-RNN as an encoder and a decoder that will be able to focus on all hidden states instead of just the final hidden state. What this modification does, is afford the decoder a flexibility in decision-making and therefore identify the parts of the source sentence that may be more relevant for the prediction of the next word in the target sentence. This is the intuition of the attention mechanism, and it leads us now to the mathematics that goes into making this happen. 
 
+
+
+#### The Algebra Involved
+
 In the basic encoder-decoder RNN framework, the decoder is trained to predict the next word $y\_t$ , given the context vector $c$ and all the words that have been predicted in previous time steps {$y\_1$,…,$y\_{t^{'}-1}$,$c$}
 
 In the new model architecture however, the probability is conditioned on a distinct context vector $c_i$ for each target word $y\_t$. 
@@ -97,7 +101,9 @@ is a scoring model which quantifies how strong the inputs around position $j$ an
 
 Thus, this new approach facilitates the information to be spread across the sequence of annotations, which can be selectively retrieved by the decoder accordingly. 
 
-By medium of language, we manage to communicate and express ideas over many dimensions of space and time, but one of the characteristics of language expression is the creation of syntactic bonds among words that may not be immediately next to each other in a sentence. This is where attention steps in and aids the interrelationship between the syntaxes of a pair of languages to identify relationships of words with other words that maybe far away in the same sentence — all the while ignoring other words that just do not have a significant bearing on the word we're trying to make a prediction for.
+
+
+By medium of language, we manage to communicate ideas over long ranges of space and time, but the creation of syntactic bonds between words in a sentence that may or may not be in close proximity to each other, underpins expression of ideas in any language. This is where attention steps in and aids the mapping of syntaxes from the source language to the target language. To identify relationships of words with other words that maybe far away in the same sentence — all while ignoring other words that just do not have much influence on the word we're trying to predict — that is what attention aims to do.
 
 -----
 
