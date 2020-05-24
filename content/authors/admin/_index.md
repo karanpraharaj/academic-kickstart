@@ -68,6 +68,11 @@ user_groups = ["Researchers", "Visitors"]
   icon = "linkedin-in"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/karan-praharaj-85142a21/"
+  
+[[social]]
+  icon = "spotify"
+  icon_pack = "fab"
+  link = "https://open.spotify.com/user/kp863?si=ZOS1PjeTQv6hEE0KB42fRA"
 
 [[social]]
   icon = "google-scholar"
@@ -84,8 +89,10 @@ user_groups = ["Researchers", "Visitors"]
 +++
 I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm visiting the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, as a research assistant. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here]() is a dummy's summary which anyone can read. 
 
-My research interests include Lexical Semantics and Deep Learning models for natural language processing applications. My Twitter feed is a lot more active than this blog. You can follow me [here](https://www.twitter.com/intrepidindian). 
+My research interests include Lexical Semantics and Deep Learning models for the prediction of symmetrical and asymmetrical relations between words.  
 
-When time isn't tight, I like to read and learn about International Relations, Public Policy and Macroeconomics.
+When time isn't tight, I like to read and learn about International Relations, public policy and macroeconomics.
 
-If I'm working, I probably am also listening to music. And when I'm listening to music, it's probably one of these [playlists on my Spotify](https://open.spotify.com/user/kp863?si=YW8jk_vmRb2HzedSUIaHSA).
+If I'm working, I'm probably also listening to music. And if I'm listening to music, it's probably one of these [playlists on my Spotify](https://open.spotify.com/user/kp863?si=YW8jk_vmRb2HzedSUIaHSA).
+
+My twitter feed is a lot livelier than this blog. You can follow me [here](https://www.twitter.com/intrepidindian).
