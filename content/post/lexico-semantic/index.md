@@ -1,16 +1,17 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Identification Of Lexico-semantic Word Relations - A Beginner's Guide"
+title: "Identification Of Lexico-Semantic Word Relations - A Beginner's Guide"
 subtitle: ""
 summary: ""
 authors: ["Karan Praharaj"]
 tags: ["Deep Learning", "Natural Language Processing", "Word Similarity"]
 categories: []
-date: 2020-02-22T19:07:15+05:30
-lastmod: 2020-02-22T19:07:15+05:30
+date: 2020-05-24T19:07:15+05:30
+lastmod: 2020-05-24T19:07:15+05:30
 featured: true
 draft: false
+comments: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -56,7 +57,9 @@ To solve this problem, our work proposes to investigate the introduction of rela
 
 However, our initial findings showed that the direct introduction of neighbour words did not lead to improvements. We figured that this was mainly due to a loss of concept-centrality that took place as a result of the change in strategy. If word relations are to be assessed by juxtapositioning two patches instead of two words, the required focus on the original word may be diluted.
 
-The next logical step was to somehow weigh the word vectors based on their centrality to the concept. To do this, we introduced an **attention mechanism** based on the PageRank algorithm (which is one of the algorithms used by Google for their web search. PageRank was developed to measure the importance of website pages). We use it to assign a weight of centrality to each of the word neighbours in the patch. The more a word is central in the patch, the higher the score it receives. These scores are then to be used as attention weights to the corresponding word vector representations of the neighbours. The objective of this mechanism is to improve the predictive ability of our system based on the importance score of each word embedding in the patch. We found that when deployed in combination with the correct architecture, attention-adjusted patches gave a significant boost to previous results.
+The next logical step was to somehow weigh the word vectors based on their centrality to the concept. To do this, we introduced an **attention mechanism** based on the PageRank algorithm (which is one of the algorithms used by Google for their web search. PageRank was developed to measure the importance of website pages). We use it to assign a weight of centrality to each of the word neighbours in the patch. The more a word is central in the patch, the higher the score it receives. These scores are then to be used as attention weights to the corresponding word vector representations of the neighbours. The objective of this mechanism is to improve the predictive ability of our system based on the importance score of each word vector in the patch. We found that when deployed in combination with the correct architecture, attention-adjusted patches gave a significant boost to previous results. I would have to tread into extremely technical territory to explain the specifics of the architectures, so for now we will spare ourselves those details.
+
+As it stands, we believe that
 
 
 
