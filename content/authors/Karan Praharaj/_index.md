@@ -87,7 +87,7 @@ user_groups = ["Researchers", "Visitors"]
 #  link = "files/cv.pdf"
 
 +++
-I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm visiting the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, as a research assistant. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here]() is a dummy's summary which anyone can read. 
+I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm visiting the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, as a research assistant. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
 
 My research interests include Lexical Semantics and Deep Learning models for the prediction of symmetrical and asymmetrical relations between words.  
 
