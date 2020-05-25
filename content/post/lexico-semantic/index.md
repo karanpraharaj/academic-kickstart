@@ -39,12 +39,12 @@ This task of teaching and empowering machines to understand language just as we 
 
 Consider a space where all words in the English language are populated based on their semantic character. This imaginary space is such that words sharing similar share similar spacial properties. For instance, the words "cat" and "dog" would be in close vicinity with each other because the idea of a cat is very similar to the idea of a dog. Both are bipedal, domestic species that make for cute pets. For words that are not similar in meaning but represent the same concept, the positions of the words relative to each other encapsulate the relationship. In the semantic space, the relative position of "king" to the position of "queen" would be similar to the difference in relative positions between "man" and "woman" or "boy" and "girl", because the defining concept that separates the words is the same -- gender. 
 
-![wv3](/Users/karanpraharaj/kpwebsite/content/post/lexico-semantic/wv3.png)
+![wv3](wv3.png)
 
 
 In the example semantic space below, you can see how the vectors for animals like lion, tiger, cheetah, and elephant are very close together. This is likely because they are often discussed in similar contexts; for example, these animals are big, wild and, potentially dangerous — indeed, the descriptive word "wild" maps quite closely to this group of animals. 
 
-![](/Users/karanpraharaj/kpwebsite/content/post/lexico-semantic/wv2.png)
+![](wv2.png)
 
 Since words in their purest form cannot be interpreted by computers, we dumb them down by mapping the concepts and ideas that are inherent to the words into a representative set of numbers for each word. These sets of numbers are generated or "learned" algebraically by "neural networks" (a type of algorithm) and are called "word vectors". These word vectors bear the ability to capture information about semantic relationships and syntactic structures across collections of words. Approaches to generating word vectors build on Firth's (1957) *distributional hypothesis* which states:
 
@@ -55,8 +55,7 @@ Put differently, **words that share similar contexts tend to have similar meanin
 Word vectors can have any number of dimensions, although the standard number is usually 50, 100 or 300. Each of these dimensions represents a meaning or an abstract concept, the degree of which depends upon the numeric weight of the word on that particular dimension. Here is an example to illustrate this. Consider a lexicon of just ten words (rather than millions) and imagine that our word vectors are three-dimensioned (rather than three hundred). 
 
 
-![](/Users/karanpraharaj/kpwebsite/content/post/lexico-semantic/wv1.png)
-
+![](wv1.png)
 
 
 In the figure above, for better understanding, we are imagining that each dimension captures a clearly defined meaning as opposed to an abstract idea. For example, if you imagine that the third dimension represents the concept of "fluffy," then each word's weight on that dimension represents how closely it relates to that concept. This is quite a large simplification of word vectors as the dimensions do not hold such clearly defined meanings in reality, but it is a useful and intuitive way to wrap your head around the concept of word vector dimensions. We will not delve into the mathematical details of how neural networks learn word embeddings, but now you know the underlying idea that drives the mathematics. 
@@ -81,7 +80,7 @@ Many similarity measures exist to account for the lexical semantic relation that
 
 The next step consists of transforming a patch into a learning input, because although we can draw and visualise patches in our head, the computer needs it in the form of concrete, numeric data to understand it. The 300-dimensional word vectors of each word are compared to the 300-dimensional word vectors of all the words in the patch and a single similarity score for each comparison. In effect, we take 600 values (300 from each of the two words) and simplify them into one with the help of cosine similarity. If we set the no. of neighbours to be 10, that would give us 10 x 10 comparisons, resulting in 100 similarity values. These values together form the "intra-patch similarity table". Given below are a examples of four different patches along with their intra-patch scores.
 
-![patch1](/Users/karanpraharaj/kpwebsite/content/post/lexico-semantic/patch1.png)
+![patch1](patch1.png)
 
 It was decided that in addition to preserving concept-centrality *within* patches, it also makes sense to preserve relation-centrality *between* patches. It is important to acknowledge that only certain words in the two patches may be central to the decision of whether two words are in a lexical semantic relation. If two patches share a set of close semantically related words that are central to both concepts, the decision process should intuitively be more reliable.
 
