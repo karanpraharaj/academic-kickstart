@@ -44,7 +44,7 @@ Consider a space where all words in the English language are populated based on 
 
 In the example semantic space below, you can see how the vectors for animals like lion, tiger, cheetah, and elephant are very close together. This is likely because they are often discussed in similar contexts; for example, these animals are big, wild and, potentially dangerous — indeed, the descriptive word "wild" maps quite closely to this group of animals. 
 
-![](wv2.png)
+<img src="wv2.png" style="zoom:50%;" />
 
 Since words in their purest form cannot be interpreted by computers, we dumb them down by mapping the concepts and ideas that are inherent to the words into a representative set of numbers for each word. These sets of numbers are generated or "learned" algebraically by "neural networks" (a type of algorithm) and are called "word vectors". These word vectors bear the ability to capture information about semantic relationships and syntactic structures across collections of words. Approaches to generating word vectors build on Firth's (1957) *distributional hypothesis* which states:
 
@@ -80,7 +80,7 @@ Many similarity measures exist to account for the lexical semantic relation that
 
 The next step consists of transforming a patch into a learning input, because although we can draw and visualise patches in our head, the computer needs it in the form of concrete, numeric data to understand it. The 300-dimensional word vectors of each word are compared to the 300-dimensional word vectors of all the words in the patch and a single similarity score for each comparison. In effect, we take 600 values (300 from each of the two words) and simplify them into one with the help of cosine similarity. If we set the no. of neighbours to be 10, that would give us 10 x 10 comparisons, resulting in 100 similarity values. These values together form the "intra-patch similarity table". Given below are a examples of four different patches along with their intra-patch scores.
 
-![patch1](patch1.png)
+<img src="patch1.png" alt="patch1" style="zoom: 67%;" />
 
 It was decided that in addition to preserving concept-centrality *within* patches, it also makes sense to preserve relation-centrality *between* patches. It is important to acknowledge that only certain words in the two patches may be central to the decision of whether two words are in a lexical semantic relation. If two patches share a set of close semantically related words that are central to both concepts, the decision process should intuitively be more reliable.
 
