@@ -3,10 +3,10 @@
 
 title: "Identification Of Lexico-Semantic Word Relations - A Beginner's Guide"
 subtitle: ""
-summary: ""
+summary: "A dummy's guide that explains what I have been upto these last few months."
 authors: ["Karan Praharaj"]
 tags: ["Deep Learning", "Natural Language Processing", "Word Similarity"]
-categories: []
+categories: ["Research"]
 date: 2020-05-24T19:07:15+05:30
 lastmod: 2020-05-24T19:07:15+05:30
 featured: true
@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-When I tell you "please bear with me", you prepare yourself with the prospect of having to put up with me. If you are told "this teddy bear is fluffy", your brain conjures up the image of a soft, lovable, furry toy that toddlers take to bed. If you read about bears being endangered, you think of a polar bear somewhere in the arctic sea ice. And when they will tell you on the news next week that the coronavirus crisis has plunged us into the worst bear market of our generation, you will automatically know that they are speaking about stocks. Your knowledge of the English language, along with your ability to understand context-dependencies, lexical and syntactic structures, and linguistic nuances helps you differentiate between four senses of the same word. You take it for granted and barely think about it but it has taken you years to acquire this ability. You learn, directly or indirectly, from your personal experiences. You learn through making associations between contexts, information, behaviours, and responses. The cascade of neurocognitive reactions that are set off as you subconsciously trigger a set of neutrons to communicate or listen is nothing short of a wonder. All of this together with your genetic endowment, makes language effortless for you. 
+When I ask you to "please bear with me", you prepare yourself with the prospect of having to put up with me. If you are told "this teddy bear is fluffy", your brain conjures up the image of a soft, lovable, furry toy that toddlers take to bed. If you read about bears being endangered, you think of a polar bear somewhere in the arctic sea ice. And when they will tell you on the news next week that the coronavirus crisis has plunged us into the worst bear market of our generation, you will instinctively know that they are speaking about stocks. Your knowledge of the English language, along with your ability to understand context-dependencies, lexical and syntactic structures, and linguistic nuances helps you differentiate between four senses of the same word. You take it for granted and barely think about it but it has taken you years to acquire this ability. You learn, directly or indirectly, from your personal experiences. You learn through making associations between contexts, information, behaviours, and responses. The cascade of neurocognitive reactions that are set off as you subconsciously trigger a set of neutrons to communicate or listen is nothing short of a wonder. All of this together with your genetic endowment, makes language effortless for you. 
 
 On the other hand, understanding human language is a difficult problem for computers. Unlike you and me, computers do not have the privilege of language training the way we do. Even programming languages aren't directly interpreted by them - they are first converted to low-level machine language. True *machine code* is merely a stream of raw, usually binary (1s and 0s), data. While humans acquire the ability to parse, process, infer and communicate, for the computer, any word picked out from a human language is unintelligible gibberish until it is adequately trained to understand the language.
 
