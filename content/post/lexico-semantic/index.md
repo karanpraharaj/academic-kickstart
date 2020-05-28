@@ -6,7 +6,7 @@ subtitle: ""
 summary: "A dummy's guide that explains what I have been upto these last few months."
 authors: ["Karan Praharaj"]
 tags: ["Deep Learning", "Natural Language Processing", "Word Similarity"]
-categories: ["Research"]
+categories: [""]
 date: 2020-05-24T19:07:15+05:30
 lastmod: 2020-05-24T19:07:15+05:30
 featured: true
