@@ -106,7 +106,7 @@ On reflection though, it will never stop being crazy to me that with a little kn
 
  	
 
-*This blog post is based on the work carried out under the supervision of Prof. Gaël Dias. Other contributors to this work are his PhD students, Nesrine Bannour and Houssam Akhmouch.*
+*This blog post is based on the work carried out with Nesrine Bannour and Houssam Akhmouch, under the supervision of Prof. Gaël Dias.*
 
 
 
