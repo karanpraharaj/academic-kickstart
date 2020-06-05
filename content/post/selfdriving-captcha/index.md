@@ -28,7 +28,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-Everytime you solve a reCaptcha image, like [this one](https://3.bp.blogspot.com/-zyPGTDdb_1I/W8gUyBlM9QI/AAAAAAAAe7M/Uj0vOL5JTRUoayUosmwswptEDIkgVT28ACLcBGAs/s400/pic.jpg), you are unwittingly cleaning the data which trains machine-learning algorithms deployed in self-driving cars. This twitter thread which explains how.
+Everytime you solve a reCaptcha image, like [this one](https://3.bp.blogspot.com/-zyPGTDdb_1I/W8gUyBlM9QI/AAAAAAAAe7M/Uj0vOL5JTRUoayUosmwswptEDIkgVT28ACLcBGAs/s400/pic.jpg), you are unwittingly cleaning the data which trains machine-learning algorithms deployed in self-driving cars. This twitter thread explains how.
 
 <center><blockquote class="twitter-tweet" data-conversation="none"  data-theme="dark"><p lang="en" dir="ltr">Wonder how many people realise that they are training algorithms for self-driving cars when they solve captchas</p>&mdash; Karan (@IntrepidIndian) <a href="https://twitter.com/IntrepidIndian/status/1268613825772716032?ref_src=twsrc%5Etfw">June 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
