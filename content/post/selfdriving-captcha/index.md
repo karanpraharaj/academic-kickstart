@@ -3,7 +3,7 @@
 
 title: "You Are Building Self-Driving Cars. For Free."
 subtitle: ""
-summary: "We are all unwittingly cleaning the data for that trains algorithms deployed in self-driving cars."
+summary: "We are all unwittingly cleaning the data which trains algorithms deployed in self-driving cars."
 authors: ["Karan Praharaj"]
 tags : ["Deep Learning", "Artificial Intelligence"]
 categories : ["Computer Science", "Twitter Threads"]
