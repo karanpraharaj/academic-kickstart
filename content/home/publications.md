@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Tweets"
+title = "Recent Publications"
 subtitle = ""
 
 [content]
@@ -66,7 +66,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<a class="twitter-timeline" data-width="1200" data-height="400" data-theme="dark" href="https://twitter.com/IntrepidIndian?ref_src=twsrc%5Etfw">Tweets by IntrepidIndian</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 {{% alert note %}}
-Retweets aren't necessarily endorsements.
+Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
