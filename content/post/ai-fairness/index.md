@@ -30,7 +30,7 @@ projects: []
 
 After the end of the war, the Nuremberg trials laid bare the atrocities conducted in medical research by the Nazis. In the aftermath of the trials, the medical sciences established a set of rules — The Nuremberg Code — to control future experiments involving human subjects. The Nuremberg Code has influenced medical codes of ethics around the world, as has the exposure of experiments that had failed to follow it even three decades later, such as the infamous [Tuskegee syphilis experiment](https://en.wikipedia.org/wiki/Tuskegee_syphilis_experiment). 
 
-The direct impact of AI experiments and applications on users isn't quite as inhumane as the Tuskegee and Nazi experimentations, but in the face of an overwhelming and growing body of evidence of algorithms being biased against certain demographic cohorts, it is important that the discussion happens sooner or later. AI systems can be biased based on who builds them, the way they are developed, and how they’re eventually deployed. This is known as algorithmic bias. 
+The direct potential negative impact of AI experiments and applications on users isn't quite as inhumane as the Tuskegee and Nazi experimentations, but in the face of an overwhelming and growing body of evidence of algorithms being biased against certain demographic cohorts, it is important that a dialogue takes place sooner or later. AI systems can be biased based on who builds them, the way they are developed, and how they’re eventually deployed. This is known as algorithmic bias. 
 
 While the data sciences have not developed a Nuremberg Code of their own yet, the social implications of research in artificial intelligence are starting to be addressed in some curricula. But even as the debates are starting to sprout up, what is still lacking is a discipline-wide discussion to grapple with questions of how to tackle societal and historical inequities that are reinforced by AI algorithms.
 
@@ -38,22 +38,20 @@ We are flawed creatures. Every single decision we make involves a certain kind o
 
 When these algorithms do the job of amplifying racial, social and gender inequality, instead of alleviating it; it becomes necessary to take stock of the ethical ramifications and potential malevolence of the technology.
 
-This essay was motivated by two flashpoints : the racial inequality discussion that is now raging on worldwide, and the Yann LeCun v/s Timnit Gebru beef on Twitter caused due to a disagreement over a downsampled image of Barack Obama which was depixelated to a picture of a white man by a face upsampling machine learning (ML) model. 
+This essay was motivated by two flashpoints : the racial inequality discussion that is now raging on worldwide, and Yann LeCun’s altercation with Timnit Gebru on Twitter which was caused due to a disagreement over a downsampled image of Barack Obama that was depixelated to a picture of a white man by a face upsampling machine learning (ML) model.
 
 
 
 ![Image](https://pbs.twimg.com/media/EbACRFtUYAAjNya?format=jpg&name=large)
 The (rather explosive) argument was sparked by this tweet by LeCun where he says that the resulting face was that of a white man because of a bias in data that trained the algorithm. Gebru responded sharply that the harms of ML systems cannot be reduced to biased data. 
 
-Never mind Obama, the model even depixelized a **dog's face** to a caucasian man's. It sure loves the white man.
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">ML systems are biased when data is biased.<br>This face upsampling system makes everyone look white because the network was pretrained on FlickFaceHQ, which mainly contains white people pics.<br>Train the *exact* same system on a dataset from Senegal, and everyone will look African. <a href="https://t.co/jKbPyWYu4N">https://t.co/jKbPyWYu4N</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1274782757907030016?ref_src=twsrc%5Etfw">June 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
 <br/>
 
-<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">This is how that depixelizing algorithm reconstructed my dog, Tank <a href="https://t.co/XHgdNwRmXy">pic.twitter.com/XHgdNwRmXy</a></p>&mdash; Jiahao Chen @ 🏡🗽 (@acidflask) <a href="https://twitter.com/acidflask/status/1274889347356069888?ref_src=twsrc%5Etfw">June 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+LeCun wasn't wrong because in the case of that specific model, training the model on a dataset that contains faces of black people (as opposed to one that contains mainly white faces) would not have given rise to an output as absurd as that. But the upside of the godfather of modern AI getting dragged into a spat (albeit unfairly) has meant that more researchers will now be aware of the implications of their research.
 
-<br/>
-
-The misunderstanding clearly seems to emanate over the interpretation of the word "bias" - which in any discussion about the social impact of ML/AI seems to get crushed under the burden of its own weight. 
+The misunderstanding clearly seems to emanate from the interpretation of the word "bias" - which in any discussion about the social impact of ML/AI seems to get crushed under the burden of its own weight. 
 
 As Sebastian Raschka puts it, "the term **bias** in ML is heavily overloaded". It has multiple senses that can all be mistaken for each other and a lot of gaps in communication could be covered by just being a little more precise.
 
@@ -63,17 +61,17 @@ As Sebastian Raschka puts it, "the term **bias** in ML is heavily overloaded". I
 ​	(4) **bias**-variance decomposition of a loss function  
 ​	(5) Dataset **bias** (usually causing 2)
 
-<br/>
-
-<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">ML systems are biased when data is biased.<br>This face upsampling system makes everyone look white because the network was pretrained on FlickFaceHQ, which mainly contains white people pics.<br>Train the *exact* same system on a dataset from Senegal, and everyone will look African. <a href="https://t.co/jKbPyWYu4N">https://t.co/jKbPyWYu4N</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1274782757907030016?ref_src=twsrc%5Etfw">June 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+Never mind Obama, the model even depixelized a **dog's face** to a caucasian man's. It sure loves the white man.
 
 <br/>
 
-LeCun wasn't wrong because in the case of that specific model, training the model on a dataset that contains faces of black people (as opposed to one that contains mainly white faces) would not have given rise to an output as absurd as that. But the upside of the godfather of modern AI getting dragged into a spat (albeit unfairly) has meant that more researchers will now be aware of the implications of their research.
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">This is how that depixelizing algorithm reconstructed my dog, Tank <a href="https://t.co/XHgdNwRmXy">pic.twitter.com/XHgdNwRmXy</a></p>&mdash; Jiahao Chen @ 🏡🗽 (@acidflask) <a href="https://twitter.com/acidflask/status/1274889347356069888?ref_src=twsrc%5Etfw">June 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+<br/>
 
 Learning algorithms have inductive biases going beyond the biases in data too, sure. But if the data has a little bias, it is amplified by these systems, thereby causing high biases to be learnt by the model. Simply put, creating a 100% non-biased dataset is practically impossible. Any dataset picked by humans is cherry-picked and non-exhaustive. Our social cognitive biases result in inadvertent cherry-picking of data. This biased data, when fed to a data-variant model (a model whose decisions are heavily influenced by the data it sees) encodes these societal, racial, gender, cultural and politicial biases and bakes them into the ML model. 
 
-These problems **exacerbate**, once they are applied to products.
+These problems are exacerbated, once they are applied to products.
 A couple of years ago, Jacky Alciné [pointed out](https://twitter.com/jackyalcine/status/615329515909156865) that the image recognition algorithms in Google Photos were classifying his black friends as “gorillas.” Google apologised for the blunder and assured to resolve the issue. However, instead of coming up with a proper solution, it simply blocked the algorithm from identifying gorillas at all.
 
 It might seem surprising that a company of Google's size was unable to come up with a solution to this. But this only goes to show how that training an algorithm to be consistent and fair isn't an easy proposition, not least when it is not trained and tested on a diverse set of categories.
@@ -84,8 +82,7 @@ It might seem surprising that a company of Google's size was unable to come up w
 
 <br/>
 
-[Another disastrous episode](https://www.npr.org/2020/06/24/882683463/the-computer-got-it-wrong-how-facial-recognition-led-to-a-false-arrest-in-michig) of facial recognition tech getting it terribly wrong came as recently as last week when a faulty facial recognition match led to a Michigan man’s arrest for a crime he did not commit. Recent studies by [M.I.T.](https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) and the [National Institute of Standards and Technology](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html), or NIST, found that even though face recognition works well on white men, the results are not good enough for other demographics, in part because of a lack of diversity in the images used to develop the underlying databases.
-
+ of facial recognition tech getting it terribly wrong came as recently as last week when a faulty facial recognition match led to a Michigan man’s arrest for a crime he did not commit. Recent studies by [M.I.T.](https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) and the [National Institute of Standards and Technology](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html), or NIST, found that even though face recognition works well on white men, the results are not good enough for other demographics (the misidentification ratio can be more than 10 times worse), in part because of a lack of diversity in the images used to develop the underlying databases.
 
 Problems of algorithmic bias are not limited to image/video tasks and they manifest themselves in language tasks too. 
 
@@ -103,19 +100,17 @@ Due to the situatedness of language, any language data set inevitably carries wi
 
 
 
-While it is easy for ML Researchers to hold their hands up and absolve themselves of all responsibility, they are preparing the foundations of products of a lot of companies that are devoid of AI expertise. These companies, without the knowledge of fine-tuning and tweaking, use pre-trained models put out on the internet by ML researchers (like GloVe, BERT, ResNet, YOLO etc). Deploying these models without explicitly recalibrating them to account for demographic differences can thus lead to issues of exclusion and overgeneralisation of people along the way. The buck stops with the researchers who must own up responsibility for the other side of the coin.
+While it is easy for ML Researchers to hold their hands up and absolve themselves of all responsibility, it is imperative for them to acknowledge that they—knowingly or otherwise—build the base layer of AI products for a lot of companies that are devoid of AI expertise. These companies, without the knowledge of fine-tuning and tweaking models, use pre-trained models, as they are, put out on the internet by ML researchers (like GloVe, BERT, ResNet, YOLO etc).
 
-It is also easy to blame the data and not the algorithm. (It reminds me of the Republican stance on the second amendment debate :  "Guns don't kill people, people kill people.") But what is indisputable is that more than the need to improve the data, it is  the algorithms that need to be more robust and less prone to being biased by the data. In the meantime, de-bias the data.
+Deploying these models without explicitly recalibrating them to account for demographic differences can thus lead to issues of exclusion and overgeneralisation of people along the way. The buck stops with the researchers who must own up responsibility for the other side of the coin.
 
-&nbsp;
-
-## 
+It is also easy to blame the data and not the algorithm. (It reminds me of the Republican stance on the second amendment debate : “Guns don’t kill people, people kill people.”) But what is indisputable is that more than we need to improve the data, it is the algorithms that need to be made more robust and less prone to being biased by the data. This needs to be a responsibility for anyone who does research. In the meantime, de-bias the data.
 
 The guiding question for deployment of algorithms in the real world should always be “would a false answer be worse than no answer?”
 
 &nbsp;
 
-## 
+
 
 -----
 
