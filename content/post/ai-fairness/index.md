@@ -6,7 +6,7 @@ subtitle: "Algorithms reinforce human biases and stereotypes. This is dangerous.
 summary: "Algorithms do what they're taught. Unfortunately some are inadvertently taught prejudices and unethical biases by societal patterns hidden in the  data."
 authors: ["Karan Praharaj"]
 tags: ["Artificial Intelligence","AI Fairness"]
-categories: ["Computer Science"]
+categories: []
 date: 2020-06-27T14:24:23+05:30
 lastmod: 2020-06-27T14:24:23+05:30
 featured: true
@@ -27,6 +27,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<br/>
 
 After the end of the Second World War, the Nuremberg trials laid bare the atrocities conducted in medical research by the Nazis. In the aftermath of the trials, the medical sciences established a set of rules — The Nuremberg Code — to control future experiments involving human subjects. The Nuremberg Code has influenced medical codes of ethics around the world, as has the exposure of experiments that had failed to follow it even three decades later, such as the infamous [Tuskegee syphilis experiment](https://en.wikipedia.org/wiki/Tuskegee_syphilis_experiment).
 
