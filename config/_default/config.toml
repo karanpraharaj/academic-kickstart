@@ -16,7 +16,7 @@ baseurl = "https://karanpraharaj.github.io/"
 copyright = "&copy; Karan Praharaj, {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-# googleAnalytics = "UA-137740455-1"
+googleAnalytics = "UA-171032681-1"
 
 ############################
 ## Advanced options below ##
