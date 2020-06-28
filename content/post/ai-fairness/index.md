@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How Are Algorithms Biased?"
+title: "Are Algorithms Biased?"
 subtitle: "Algorithms reinforce human biases and stereotypes. This is dangerous."
 summary: "Algorithms do what they're taught. Unfortunately some are inadvertently taught prejudices and unethical biases by societal patterns hidden in the  data."
 authors: ["Karan Praharaj"]
@@ -49,7 +49,7 @@ The (rather explosive) argument was sparked by this tweet by LeCun where he says
 
 <br/>
 
-In most baseline ML algorithms, the model fits better to the attributes that that occur most frequently across various data points. For example, if you were to design an AI recruiting tool to review the résumés of applicants for a software engineering position, you would first need to train it with a dataset of past candidates which contains details like “experience”, “qualifications”, “degree(s) held”, “past projects” etc. For every datapoint, the algorithm of the hiring tool would need a decision or a “label”, so as to “learn” how to make a decision for a given applicant by observing patterns in their résumé.
+In most baseline ML algorithms, the model fits better to the attributes or patterns that occur most frequently across various data points. For example, if you were to design an AI recruiting tool to review the résumés of applicants for a software engineering position, you would first need to train it with a dataset of past candidates which contains details like “experience”, “qualifications”, “degree(s) held”, “past projects” etc. For every datapoint, the algorithm of the hiring tool would need a decision or a “label”, so as to “learn” how to make a decision for a given applicant by observing patterns in their résumé.
 
 For an industry where the gender disparity in representation is large, it is reasonable to assume that a large majority of the data points will be male applicants. And this collective imbalance in the data ends up being interpreted by the algorithm as a useful pattern in the data rather than undesirable noise which is to be ignored. Consequently, it teaches itself that male candidates are more preferable than female candidates.
 
