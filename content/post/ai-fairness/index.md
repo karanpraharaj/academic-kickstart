@@ -57,15 +57,13 @@ For an industry where the gender disparity in representation is large, it is rea
 
 I wish that this was merely an imaginary, exaggerated example that I used to prove my point. [<u>It is not.</u>](https://in.reuters.com/article/amazon-com-jobs-automation/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idINKCN1MK0AH)
 
-LeCun wasn’t wrong in his assessment because in the case of that specific model, training the model on a dataset that contains faces of black people (as opposed to one that contains mainly white faces) would not have given rise to an output as absurd as that. But the upside of the godfather of modern AI getting dragged into a spat (albeit unfairly) has meant that more researchers will now be aware of the implications of their research.
+LeCun wasn’t wrong in his assessment because in the case of that specific model, training the model on a dataset that contains faces of black people (as opposed to one that contains mainly white faces) would not have given rise to an output as absurd as that. 
 
-The misunderstanding clearly seems to emanate from the interpretation of the word “bias” — which in any discussion about the social impact of ML/AI seems to get crushed under the burden of its own weight.
+The misunderstanding clearly seems to emanate from the interpretation of the word “bias” — which in any discussion about the social impact of ML/AI seems to get crushed under the burden of its own weight. As Sebastian Raschka puts it, “the term **bias** in ML is heavily overloaded”. It has multiple senses that can all be mistaken for each other.
 
-As Sebastian Raschka puts it, “the term **bias** in ML is heavily overloaded”. It has multiple senses that can all be mistaken for each other.
+(1) **bias** (as in mathematical **bias** unit)  (2) Societal **bias**  (3) Inductive **bias** (which is dependent on decisions taken to build the model.)  (4) **bias**-variance decomposition of a loss function  (5) Dataset **bias**
 
-(1) **bias** (as in mathematical **bias** unit)  (2) “Fairness” **bias** (also called societal **bias**)  (3) ML **bias** (also known as inductive **bias**, which is dependent on decisions taken to build the model.)  (4) **bias**-variance decomposition of a loss function  (5) Dataset **bias** (usually causing 2)
-
-I imagine that a lot of gaps in communication could be covered by just being a little more precise when we use these terms.
+I imagine that a lot of gaps in communication could be covered by just being a little more precise when we use these terms. But the one upside to a public feud between a Turing Award winner and a pioneer of algorithmic fairness is that people are bound to talk about to it. This will hopefully mean an increased awareness among researchers about the social implications of their findings and with that, hopefully an increased sense of responsibility to mitigate the harms.
 
 On a lighter note, never mind Obama, the model even depixelized a **dog’s face** to a caucasian man’s. It sure loves white males.
 
@@ -129,7 +127,11 @@ The guiding question for deployment of algorithms in the real world should alway
 
 -----
 
-&nbsp;
+*Due to an oversight on my part, the citation of a seminal work (reference #1) in this space was missing from this essay when it was first posted. Thanks to [Falaah Arif Khan](https://falaaharifkhan.github.io/research/) for bringing this to my attention. I have now made the addition to the list of references.*
+
+*Her [Meet AI comic](https://falaaharifkhan.github.io/research/documents/Vol1.pdf) is an excellent commentary on the issues surrounding AI (including algorithmic fairness). You can also follow her art on [Instagram](https://www.instagram.com/themachinelearnist/).* 
+
+------
 
 
 
@@ -139,15 +141,19 @@ The guiding question for deployment of algorithms in the real world should alway
 
 
 
-1) [Facial Recognition Is Accurate, if You’re a White Guy]([)https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) by Steve Lohr
+1) Buolamwini, J., Gebru, T.  Gender Shades: Intersectional accuracy disparities in commercial gender classification. in *Conference on Fairness, Accountability and Transparency, 2018*. [[paper]]([https://dam-prod.media.mit.edu/x/2018/02/06/Gender%20Shades%20Intersectional%20Accuracy%20Disparities.pdf](https://dam-prod.media.mit.edu/x/2018/02/06/Gender Shades Intersectional Accuracy Disparities.pdf)) [[blog]](https://www.media.mit.edu/projects/gender-shades/overview/)
 
-2) Krishnapriya, KS., Vangara, K., King, M., Albiero, V., Bowyer, K. [Characterizing the Variability in Face Recognition Accuracy Relative to Race](https://arxiv.org/pdf/1904.07325.pdf) in *The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2019.*
+2) [Facial Recognition Is Accurate, if You’re a White Guy]([)https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) by Steve Lohr
 
-3) [Life of Language](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf) by Martin Kay, Stanford University
+3) Krishnapriya, KS., Vangara, K., King, M., Albiero, V., Bowyer, K. [Characterizing the Variability in Face Recognition Accuracy Relative to Race](https://arxiv.org/pdf/1904.07325.pdf) in *The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2019.*
 
-4) [Text Embedding Models Contain Bias. Here's Why That Matters.](https://developers.googleblog.com/2018/04/text-embedding-models-contain-bias.html) by Ben Packer, Yoni Halpern, Mario Guajardo-Céspedes & Margaret Mitchell, Google AI
+4) [Life of Language](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf) by Martin Kay, Stanford University
 
-5) Bolukbasi, T., Chang, KW., Zou, J., Saligrama, V., Kalai, A. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-d) in *Advances in Neural Information Processing Systems 29, 2016.*
+5) [Text Embedding Models Contain Bias. Here's Why That Matters.](https://developers.googleblog.com/2018/04/text-embedding-models-contain-bias.html) by Ben Packer, Yoni Halpern, Mario Guajardo-Céspedes & Margaret Mitchell, Google AI
+
+6) Bolukbasi, T., Chang, KW., Zou, J., Saligrama, V., Kalai, A. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-d) in *Advances in Neural Information Processing Systems 29, 2016.*
+
+
 
 &nbsp;
 
