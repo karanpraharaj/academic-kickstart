@@ -63,7 +63,7 @@ The misunderstanding clearly seems to emanate from the interpretation of the wor
 
 (1) **bias** (as in mathematical **bias** unit)  (2) Societal **bias**  (3) Inductive **bias** (which is dependent on decisions taken to build the model.)  (4) **bias**-variance decomposition of a loss function  (5) Dataset **bias**
 
-I imagine that a lot of gaps in communication could be covered by just being a little more precise when we use these terms. But the one upside to a public feud between a Turing Award winner and a pioneer of algorithmic fairness is that people are bound to talk about to it. This will hopefully mean an increased awareness among researchers about the social implications of their findings and with that, hopefully an increased sense of responsibility to mitigate the harms.
+I imagine that a lot of gaps in communication could be covered by just being a little more precise when we use these terms. But the one upside to a public feud between a Turing Award winner and a pioneer of algorithmic fairness is that people in the community are bound to talk about it. This will hopefully mean an increased awareness among researchers about the social implications of their findings and with that, hopefully, an increased sense of responsibility to mitigate the harms.
 
 On a lighter note, never mind Obama, the model even depixelized a **dog’s face** to a caucasian man’s. It sure loves white males.
 
