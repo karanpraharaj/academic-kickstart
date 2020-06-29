@@ -30,7 +30,7 @@ projects: []
 
 <br/>
 
-After the end of the Second World War, the Nuremberg trials laid bare the atrocities conducted in medical research by the Nazis. In the aftermath of the trials, the medical sciences established a set of rules — The Nuremberg Code — to control future experiments involving human subjects. The Nuremberg Code has influenced medical codes of ethics around the world, as has the exposure of experiments that had failed to follow it even three decades later, such as the infamous [Tuskegee syphilis experiment](https://en.wikipedia.org/wiki/Tuskegee_syphilis_experiment).
+After the end of the Second World War, the Nuremberg trials laid bare the atrocities conducted in medical research by the Nazis. In the aftermath of the trials, the medical sciences established a set of rules — The Nuremberg Code — to control future experiments involving human subjects. The Nuremberg Code has influenced medical codes of ethics around the world, as has the exposure of experiments that had failed to follow it even three decades later, such as the infamous [<u>Tuskegee syphilis experiment</u>](https://en.wikipedia.org/wiki/Tuskegee_syphilis_experiment).
 
 The direct negative impact of AI experiments and applications on users isn’t quite as inhumane as that of the Tuskegee and Nazi experimentations, but in the face of an overwhelming and growing body of evidence of algorithms being biased against certain demographic cohorts, it is important that a dialogue takes place sooner or later. AI systems can be biased based on who builds them, the way they are developed, and how they’re eventually deployed. This is known as algorithmic bias.
 
@@ -55,7 +55,7 @@ In most baseline ML algorithms, the model fits better to the attributes or patte
 
 For an industry where the gender disparity in representation is large, it is reasonable to assume that a large majority of the data points will be male applicants. And this collective imbalance in the data ends up being interpreted by the algorithm as a useful pattern in the data rather than undesirable noise which is to be ignored. Consequently, it teaches itself that male candidates are more preferable than female candidates.
 
-I wish that this was merely an imaginary, exaggerated example that I used to prove my point. [It is not.](https://in.reuters.com/article/amazon-com-jobs-automation/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idINKCN1MK0AH)
+I wish that this was merely an imaginary, exaggerated example that I used to prove my point. [<u>It is not.</u>](https://in.reuters.com/article/amazon-com-jobs-automation/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idINKCN1MK0AH)
 
 LeCun wasn’t wrong in his assessment because in the case of that specific model, training the model on a dataset that contains faces of black people (as opposed to one that contains mainly white faces) would not have given rise to an output as absurd as that. But the upside of the godfather of modern AI getting dragged into a spat (albeit unfairly) has meant that more researchers will now be aware of the implications of their research.
 
@@ -77,7 +77,7 @@ On a lighter note, never mind Obama, the model even depixelized a **dog’s face
 
 Learning algorithms have inductive biases going beyond the biases in data too, sure. But if the data has a little bias, it is amplified by these systems, thereby causing high biases to be learnt by the model. Simply put, creating a 100% non-biased dataset is practically impossible. Any dataset picked by humans is cherry-picked and non-exhaustive. Our social cognitive biases result in inadvertent cherry-picking of data. This biased data, when fed to a data-variant model (a model whose decisions are heavily influenced by the data it sees) encodes these societal, racial, gender, cultural and political biases and bakes them into the ML model.
 
-These problems are exacerbated, once they are applied to products. A couple of years ago, Jacky Alciné [pointed out](https://twitter.com/jackyalcine/status/615329515909156865) that the image recognition algorithms in [Google Photos were classifying his black friends as “gorillas.”](https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/) Google apologised for the blunder and assured to resolve the issue. However, instead of coming up with a proper solution, it simply blocked the algorithm from identifying gorillas at all.
+These problems are exacerbated, once they are applied to products. A couple of years ago, Jacky Alciné [<u>pointed out</u>](https://twitter.com/jackyalcine/status/615329515909156865) that the image recognition algorithms in [<u>Google Photos were classifying his black friends as “gorillas.”</u>](https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/) Google apologised for the blunder and assured to resolve the issue. However, instead of coming up with a proper solution, it simply blocked the algorithm from identifying gorillas at all.
 
 It might seem surprising that a company of Google’s size was unable to come up with a solution to this. But this only goes to show that training an algorithm that is consistent and fair isn’t an easy proposition, not least when it is not trained and tested on a diverse set of categories that represent various demographic cohorts of the population proportionately.
 
@@ -87,11 +87,11 @@ It might seem surprising that a company of Google’s size was unable to come up
 
 <br/>
 
-[Another disastrous episode](https://www.npr.org/2020/06/24/882683463/the-computer-got-it-wrong-how-facial-recognition-led-to-a-false-arrest-in-michig) of facial recognition tech getting it terribly wrong came as recently as last week when a faulty facial recognition match led to a Michigan man’s arrest for a crime he did not commit. Recent studies by [M.I.T.](https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) and the [National Institute of Standards and Technology](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html), or NIST, found that even though face recognition works well on white men, the results are not good enough for other demographics (the misidentification ratio can be more than 10 times worse), in part because of a lack of diversity in the images used to develop the underlying databases.
+[<u>Another disastrous episode</u>](https://www.npr.org/2020/06/24/882683463/the-computer-got-it-wrong-how-facial-recognition-led-to-a-false-arrest-in-michig) of facial recognition tech getting it terribly wrong came as recently as last week when a faulty facial recognition match led to a Michigan man’s arrest for a crime he did not commit. Recent studies by [<u>M.I.T.</u>](https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) and the [<u>National Institute of Standards and Technology</u>](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html), or NIST, found that even though face recognition works well on white men, the results are not good enough for other demographics (the misidentification ratio can be more than 10 times worse), in part because of a lack of diversity in the images used to develop the underlying databases.
 
 Problems of algorithmic bias are not limited to image/video tasks and they manifest themselves in language tasks too.
 
-[Language is always “situated”](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf), i.e., it depends on external references for its understanding and the receiver(s) must be in a position to resolve these references. This therefore means that the text used to train models carries latent information about the author and the situation, albeit to varying degrees.
+[<u>Language is always “situated”</u>](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf), i.e., it depends on external references for its understanding and the receiver(s) must be in a position to resolve these references. This therefore means that the text used to train models carries latent information about the author and the situation, albeit to varying degrees.
 
 Due to the situatedness of language, any language data set inevitably carries with it a demographic bias. For example, some speech to text transcription models tend to have higher error rates for African Americans, Arabs and South Asians as compared to Americans and Europeans. This is because the corpus that the  speech recognition models are trained are dominated by utterances of people from western countries. This causes the system to be good at interpreting European and American accents but subpar at transcribing speech from other parts of the world.
 
@@ -105,7 +105,7 @@ Another example in this space is the gender biases in existing word embeddings (
 
 &nbsp;
 
-In the table below, we see the gender bias scores associated with various occupations in the [Universal Sentence Encoder](https://www.tensorflow.org/hub/modules/google/universal-sentence-encoder/1) embedding model. The occupations with positive scores are female-biased occupations and ones with negative scores are male-biased occupations.
+In the table below, we see the gender bias scores associated with various occupations in the [<u>Universal Sentence Encoder</u>](https://www.tensorflow.org/hub/modules/google/universal-sentence-encoder/1) embedding model. The occupations with positive scores are female-biased occupations and ones with negative scores are male-biased occupations.
 
 <img src = "tablefair.png" alt="fair" />
 
