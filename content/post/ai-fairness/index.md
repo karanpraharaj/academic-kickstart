@@ -141,9 +141,9 @@ The guiding question for deployment of algorithms in the real world should alway
 
 
 
-1) Buolamwini, J., Gebru, T.  Gender Shades: Intersectional accuracy disparities in commercial gender classification. in *Conference on Fairness, Accountability and Transparency, 2018*. [[paper]]([https://dam-prod.media.mit.edu/x/2018/02/06/Gender%20Shades%20Intersectional%20Accuracy%20Disparities.pdf](https://dam-prod.media.mit.edu/x/2018/02/06/Gender Shades Intersectional Accuracy Disparities.pdf)) [[blog]](https://www.media.mit.edu/projects/gender-shades/overview/)
+1) Buolamwini, J., Gebru, T.  Gender Shades: Intersectional accuracy disparities in commercial gender classification. in *Conference on Fairness, Accountability and Transparency, 2018*. [[paper]](https://dam-prod.media.mit.edu/x/2018/02/06/Gender%20Shades%20Intersectional%20Accuracy%20Disparities.pdf) [[blog]](https://www.media.mit.edu/projects/gender-shades/overview/)
 
-2) [Facial Recognition Is Accurate, if You’re a White Guy]([)https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) by Steve Lohr
+2) [Facial Recognition Is Accurate, if You’re a White Guy](https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html) by Steve Lohr
 
 3) Krishnapriya, KS., Vangara, K., King, M., Albiero, V., Bowyer, K. [Characterizing the Variability in Face Recognition Accuracy Relative to Race](https://arxiv.org/pdf/1904.07325.pdf) in *The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2019.*
 
