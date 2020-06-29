@@ -125,7 +125,7 @@ The guiding question for deployment of algorithms in the real world should alway
 
 ------
 
-*Thanks to Nayan K, Naga Karthik and Bina Praharaj for reviewing drafts of this.*
+*Thanks to Nayan K, [Naga Karthik](https://twitter.com/naga_karthik7) and Bina Praharaj for reviewing drafts of this.*
 
 -----
 
