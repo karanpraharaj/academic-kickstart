@@ -89,7 +89,7 @@ It might seem surprising that a company of Google’s size was unable to come up
 
 Problems of algorithmic bias are not limited to image/video tasks and they manifest themselves in language tasks too.
 
-[<u>Language is always “situated”</u>](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf), i.e., it depends on external references for its understanding and the receiver(s) must be in a position to resolve these references. This therefore means that the text used to train models carries latent information about the author and the situation, albeit to varying degrees.
+[Language is always “situated”](https://web.stanford.edu/~mjkay/LifeOfLanguage.pdf), i.e., it depends on external references for its understanding and the receiver(s) must be in a position to resolve these references. This therefore means that the text used to train models carries latent information about the author and the situation, albeit to varying degrees.
 
 Due to the situatedness of language, any language data set inevitably carries with it a demographic bias. For example, some speech to text transcription models tend to have higher error rates for African Americans, Arabs and South Asians as compared to Americans and Europeans. This is because the corpus that the  speech recognition models are trained are dominated by utterances of people from western countries. This causes the system to be good at interpreting European and American accents but subpar at transcribing speech from other parts of the world.
 
@@ -103,7 +103,7 @@ Another example in this space is the gender biases in existing word embeddings (
 
 &nbsp;
 
-In the table below, we see the gender bias scores associated with various occupations in the [<u>Universal Sentence Encoder</u>](https://www.tensorflow.org/hub/modules/google/universal-sentence-encoder/1) embedding model. The occupations with positive scores are female-biased occupations and ones with negative scores are male-biased occupations.
+In the table below, we see the gender bias scores associated with various occupations in the [Universal Sentence Encoder](https://www.tensorflow.org/hub/modules/google/universal-sentence-encoder/1) embedding model. The occupations with positive scores are female-biased occupations and ones with negative scores are male-biased occupations.
 
 <img src = "tablefair.png" alt="fair" />
 
@@ -113,7 +113,7 @@ For ML Researchers it would be easy to punt the blame and absolve themselves of 
 
 Deploying these models without explicitly recalibrating them to account for demographic differences can thus lead to issues of exclusion and overgeneralisation of people along the way. The buck stops with the researchers who must own up responsibility for the other side of the coin.
 
-It is also easy to blame the data and not the algorithm. (It reminds me of the Republican stance on the second amendment debate : “Guns don’t kill people, people kill people.”) Pinning the blame on just the data is irresponsible and akin to saying that the racist child isn't racist because he was taught the racism by his racist father. 
+It is also easy to blame the data and not the algorithm. Pinning the blame on just the data is irresponsible and akin to saying that the racist child isn't racist because he was taught the racism by his racist father. 
 
 More than we need to improve the data, it is the algorithms that need to be made more robust, less sensitive and less prone to being biased by data that is skewed. This needs to be a responsibility for anyone who does research. In the meantime, de-bias the data.
 
@@ -153,7 +153,7 @@ The guiding question for deployment of algorithms in the real world should alway
 
 6) Bolukbasi, T., Chang, KW., Zou, J., Saligrama, V., Kalai, A. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-d) in *Advances in Neural Information Processing Systems 29, 2016.*
 
-
+<iframe src="https://karanp.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 &nbsp;
 
