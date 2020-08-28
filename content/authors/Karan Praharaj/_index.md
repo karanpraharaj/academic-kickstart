@@ -9,11 +9,11 @@ authors = ["Karan Praharaj"]
 superuser = true
 
 # Role/position
-role = "Student"
+role = "Student, Research Assistant"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "GREYC Lab, University of Caen, Normandy", url = "https://www.greyc.fr/?page_id=29&lang=en" } ]
+organizations = [{ name = "University of Colorado Boulder", url = "http://www.colorado.edu/" }, { name = "GREYC Lab, University of Caen, Normandy", url = "https://www.greyc.fr/?page_id=29&lang=en" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Visiting research assistant at the GREYC Lab at the University of Normandy in France."
@@ -34,6 +34,11 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 
+[[education.courses]]
+  course = "MS in Computational Linguistics"
+  institution = "University of Colorado Boulder"
+  year = 2022
+ 
 [[education.courses]]
   course = "B.Tech in Electronics and Communication Engineering"
   institution = "Shiv Nadar University"
@@ -87,7 +92,7 @@ user_groups = ["Researchers", "Visitors"]
 #  link = "files/cv.pdf"
 
 +++
-I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm visiting the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, as a research assistant. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
+I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Masters degree at the University of Colorado Boulder. I'm also a research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, as a research assistant. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
 
 My research interests include Lexical Semantics and Deep Learning models for the prediction of symmetrical and asymmetrical relations between words.  
 
