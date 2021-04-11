@@ -38,7 +38,7 @@ user_groups = ["Researchers", "Visitors"]
   course = "MS in Computational Linguistics"
   institution = "University of Colorado Boulder"
   year = 2022
- 
+
 [[education.courses]]
   course = "B.Tech in Electronics and Communication Engineering"
   institution = "Shiv Nadar University"
@@ -58,12 +58,12 @@ user_groups = ["Researchers", "Visitors"]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/IntrepidIndian"
-  
+
 [[social]]
   icon = "instagram"
   icon_pack = "fab"
   link = "https://instagram.com/karanpraharaj"
-  
+
 [[social]]
   icon = "github"
   icon_pack = "fab"
@@ -73,7 +73,7 @@ user_groups = ["Researchers", "Visitors"]
   icon = "linkedin-in"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/karan-praharaj-85142a21/"
-  
+
 [[social]]
   icon = "spotify"
   icon_pack = "fab"
@@ -92,12 +92,13 @@ user_groups = ["Researchers", "Visitors"]
 #  link = "files/cv.pdf"
 
 +++
-I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Masters degree at the University of Colorado Boulder. I'm also a research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France. My work here, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/), focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
+I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Master of Science degree at the University of Colorado Boulder. I'm a research assistant at the [CLEAR Lab](https://www.colorado.edu/lab/clear/) @ University of Colorado Boulder. I am working here under the supervision of [Prof. Martha Palmer](https://www.colorado.edu/faculty/palmer-martha/), on DARPA's [KAIROS](https://www.darpa.mil/news-events/2019-01-04) project (Knowledge-directed Artificial Intelligence Reasoning Over Schemas). Additionally, I am also working as a research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/). My work here focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
 
-My research interests include Lexical Semantics and Deep Learning models for the prediction of symmetrical and asymmetrical relations between words.  
+For the Spring 2021 semester, I am serving as the Teaching Assistant for the CSCI 4314/5314 Dynamic Models in Biology course at CU Boulder, offered by [Prof. Orit Peleg](https://www.colorado.edu/biofrontiers/orit-peleg). 
+
+My current research interests include (but are not limited to) Deep Learning methods for Natural Language Processing, Computational Lexical Semantics, and schema-based AI systems that can identify complex events.
 
 When time isn't tight, I like to read and learn about International Relations, public policy and macroeconomics.
 
 If I'm working, I'm probably also listening to music. And if I'm listening to music, it's probably one of these [playlists on my Spotify](https://open.spotify.com/user/kp863?si=YW8jk_vmRb2HzedSUIaHSA).
 
-My twitter feed is a lot livelier than this blog. You can follow me [here](https://www.twitter.com/intrepidindian).
