@@ -9,11 +9,11 @@ authors = ["Karan Praharaj"]
 superuser = true
 
 # Role/position
-role = "Student, Research Assistant"
+role = "Masters student, AI Intern, Research Assistant"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "University of Colorado Boulder", url = "http://www.colorado.edu/" }, { name = "GREYC Lab, University of Caen, Normandy", url = "https://www.greyc.fr/?page_id=29&lang=en" } ]
+organizations = [{ name = "University of Colorado Boulder", url = "http://www.colorado.edu/" }, { name = "Reveal Data", url = "https://www.revealdata.com/" }, { name = "GREYC Lab, University of Caen, Normandy", url = "https://www.greyc.fr/?page_id=29&lang=en" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Visiting research assistant at the GREYC Lab at the University of Normandy in France."
@@ -23,9 +23,9 @@ email = "karanpraharaj@hotmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Lexico-semantic Relations",
-  "Computational Linguistics",
-  "Attention Models for Identification of Symmetric and Asymmetric Word Relations"
+  "Natural Language Processing",
+  "Deep Learning",
+  "Knowledge Representation and Reasoning"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -86,19 +86,18 @@ user_groups = ["Researchers", "Visitors"]
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#  icon = "cv"
-#  icon_pack = "ai"
-#  link = "files/cv.pdf"
+ [[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/cv.pdf"
 
 +++
-I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Master of Science degree at the University of Colorado Boulder. I'm a research assistant at the [CLEAR Lab](https://www.colorado.edu/lab/clear/) @ University of Colorado Boulder. I am working here under the supervision of [Prof. Martha Palmer](https://www.colorado.edu/faculty/palmer-martha/), on DARPA's [KAIROS](https://www.darpa.mil/news-events/2019-01-04) project (Knowledge-directed Artificial Intelligence Reasoning Over Schemas). Additionally, I am also working as a research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/). My work here focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
+I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Master of Science degree at the University of Colorado Boulder. I'm an intern at the AI and ML team at [Reveal Data](https://www.revealdata.com), Chicago. Here, I'm working on extending multi-lingual capabilities to Reveal Data's deep learning based [e-discovery](https://en.wikipedia.org/wiki/Electronic_discovery) models. More specifically, I am investigating different fine-tuning regimes for multi-lingual BERT in the context of e-discovery and Technology Assisted Review [(TAR)](https://edrm.net/resources/frameworks-and-standards/technology-assisted-review/). My work here is advised by Dr. Irina Matveeva.
 
-For the Spring 2021 semester, I am serving as the Teaching Assistant for the CSCI 4314/5314 Dynamic Models in Biology course at CU Boulder, offered by [Prof. Orit Peleg](https://www.colorado.edu/biofrontiers/orit-peleg). 
+Back in school at Boulder, I'm a research assistant at the [CLEAR Lab](https://www.colorado.edu/lab/clear/). I am working here under the supervision of [Prof. Martha Palmer](https://www.colorado.edu/faculty/palmer-martha/), on DARPA's [KAIROS](https://www.darpa.mil/news-events/2019-01-04) project (Knowledge-directed Artificial Intelligence Reasoning Over Schemas). Additionally, I am also working as a research assistant at the [GREYC Lab](https://www.greyc.fr/?page_id=29&lang=en) @ [University of Caen, Normandy](http://welcome.unicaen.fr/research/) in France, supervised by [Prof. Gaël Dias](https://dias.users.greyc.fr/). My work here focuses on Patch-based Identification of Lexico-Semantic Relations. If that is too much jargon, [here](post/lexico-semantic/) is a dummy's summary which anyone can read. 
 
-My current research interests include (but are not limited to) Deep Learning methods for Natural Language Processing, Computational Lexical Semantics, and schema-based AI systems that can identify complex events.
+My current research interests include (but are not limited to) Deep Learning methods for Natural Language Processing, Computational Lexical Semantics, schema-based AI systems that can identify complex events and AI for e-discovery.
 
 When time isn't tight, I like to read and learn about International Relations, public policy and macroeconomics.
 
 If I'm working, I'm probably also listening to music. And if I'm listening to music, it's probably one of these [playlists on my Spotify](https://open.spotify.com/user/kp863?si=YW8jk_vmRb2HzedSUIaHSA).
-
