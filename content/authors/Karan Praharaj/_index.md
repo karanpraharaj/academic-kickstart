@@ -9,14 +9,14 @@ authors = ["Karan Praharaj"]
 superuser = true
 
 # Role/position
-role = "MS student, AI Intern, Research Assistant"
+role = "Machine Learning Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name = "University of Colorado Boulder", url = "http://www.colorado.edu/" }, { name = "Reveal Data", url = "https://www.revealdata.com/" }, { name = "GREYC Lab, University of Caen, Normandy", url = "https://www.greyc.fr/?page_id=29&lang=en" } ]
+organizations = [{ name = "Reveal Data", url = "https://www.revealdata.com/" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Visiting research assistant at the GREYC Lab at the University of Normandy in France."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "karanpraharaj@hotmail.com"
