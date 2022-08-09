@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Fairness on Karan Praharaj</title>
+    <link>https://karanpraharaj.github.io/tag/ai-fairness/</link>
+    <description>Recent content in AI Fairness on Karan Praharaj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Karan Praharaj, {year}</copyright>
+    <lastBuildDate>Sat, 27 Jun 2020 14:24:23 +0530</lastBuildDate><atom:link href="https://karanpraharaj.github.io/tag/ai-fairness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are Algorithms Biased?</title>
+      <link>https://karanpraharaj.github.io/post/ai-fairness/</link>
+      <pubDate>Sat, 27 Jun 2020 14:24:23 +0530</pubDate>
+      
+      <guid>https://karanpraharaj.github.io/post/ai-fairness/</guid>
+      <description>Algorithms do what they&amp;rsquo;re taught. Unfortunately some are inadvertently taught prejudices and unethical biases by societal patterns hidden in the  data.</description>
+    </item>
+    
+  </channel>
+</rss>

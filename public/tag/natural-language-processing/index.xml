@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing on Karan Praharaj</title>
+    <link>https://karanpraharaj.github.io/tag/natural-language-processing/</link>
+    <description>Recent content in Natural Language Processing on Karan Praharaj</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Karan Praharaj, {year}</copyright>
+    <lastBuildDate>Sun, 24 May 2020 19:07:15 +0530</lastBuildDate><atom:link href="https://karanpraharaj.github.io/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification Of Lexico-Semantic Word Relations - A Beginner&#39;s Guide</title>
+      <link>https://karanpraharaj.github.io/post/lexico-semantic/</link>
+      <pubDate>Sun, 24 May 2020 19:07:15 +0530</pubDate>
+      
+      <guid>https://karanpraharaj.github.io/post/lexico-semantic/</guid>
+      <description>A dummy&amp;rsquo;s guide that explains what I have been upto these last few months.</description>
+    </item>
+    
+    <item>
+      <title>Attention for Machine Translation</title>
+      <link>https://karanpraharaj.github.io/post/attention/</link>
+      <pubDate>Mon, 08 Apr 2019 13:21:02 +0200</pubDate>
+      
+      <guid>https://karanpraharaj.github.io/post/attention/</guid>
+      <description>A brief round-up of the attention mechanism for neural machine translation models.</description>
+    </item>
+    
+  </channel>
+</rss>
