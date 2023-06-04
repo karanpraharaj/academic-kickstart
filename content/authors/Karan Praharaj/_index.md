@@ -92,7 +92,7 @@ user_groups = ["Researchers", "Visitors"]
   link = "files/cv.pdf"
 
 +++
-I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Masters degree at the University of Colorado Boulder. I'm an intern at the AI/ML team at [Reveal Data](https://www.revealdata.com), Chicago. Here, I'm working on extending multi-lingual capabilities to Reveal Data's deep learning based [e-discovery](https://en.wikipedia.org/wiki/Electronic_discovery) models. My work here is advised by Dr. Irina Matveeva.
+I am a student working in Computational Linguistics and Natural Language Processing. Currently, I'm pursuing my Masters degree at the University of Colorado Boulder. I'm a Machine Learning Data Scientist at the AI/ML team at [Reveal Data](https://www.revealdata.com), Chicago. Here, I'm working on extending multi-lingual capabilities to Reveal Data's deep learning based [e-discovery](https://en.wikipedia.org/wiki/Electronic_discovery) models. My work here is advised by Dr. Irina Matveeva.
 # More specifically, I am investigating different fine-tuning regimes for multi-lingual BERT in the context of e-discovery and Technology Assisted Review [(TAR)](https://edrm.net/resources/frameworks-and-standards/technology-assisted-review/). 
 
 I'm also research assistant at the [CLEAR Lab](https://www.colorado.edu/lab/clear/) at the University of Colorado, working with [Prof. Martha Palmer](https://www.colorado.edu/faculty/palmer-martha/), on DARPA's [KAIROS](https://www.darpa.mil/news-events/2019-01-04) project (Knowledge-directed Artificial Intelligence Reasoning Over Schemas). My work involves investigation of conceptual similarity  algorithms for ontology-based partial similarity matching for Wikidata entities.
